@@ -1,0 +1,81 @@
+@import url(reset.css);
+
+* {
+   
+    /*      border: 1px solid red !important;  */
+
+  
+}
+
+body {
+    font-family: Lato;
+    color: #93C9FF;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+section {
+    
+    padding: 0 5vw 0 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.home {
+    padding-right: 40vh;
+}
+
+header {
+    min-height: 5vh;
+    min-width: 100vw;
+    padding: 0 5vw 0 5vw;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.foto img {
+    height: 1000px;
+    width: 1000px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #93C9FF;
+}
+
+li a:hover {
+    color: #FF93CD;
+}
+
+footer {
+    min-width: 100vw;
+    min-height: 5vh;
+    font-size: 12px;
+    color: #93C9FF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 1%;
+}
