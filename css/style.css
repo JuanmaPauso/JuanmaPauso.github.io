@@ -60,6 +60,7 @@ ul {
 
 li {
     text-decoration: none;
+    text-transform: capitalize;
     list-style-type: none;
 }
 
